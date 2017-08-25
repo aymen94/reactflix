@@ -1,0 +1,25 @@
+{
+  "name": "reactflix",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://aymen94.github.io/reactflix/",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "nuka-carousel": "^2.2.1",
+    "react": "^15.6.1",
+    "react-aria-modal": "^2.7.0",
+    "react-dom": "^15.6.1",
+    "react-modal": "^2.2.4",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
