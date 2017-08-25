@@ -1,7 +1,7 @@
 
 # ReactFlix
 
-Reactflix is simple demo Inspired by Netflix.
+Reactflix is simple front-end Inspired by Netflix.
 Api by: themoviedb.org
 
 -----------------------------------------------------------
