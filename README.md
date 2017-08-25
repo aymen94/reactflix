@@ -6,7 +6,7 @@ Api by: themoviedb.org
 
 -----------------------------------------------------------
 
-### DEMO : https://aymen94.github.io/reactFlix/
+### DEMO : https://aymen94.github.io/reactflix/
  
 ------------------------------------------------------------
  
