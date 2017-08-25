@@ -12,7 +12,8 @@ Follow me to stay up to date
 -----------------------------------------------------------
 
 ### DEMO : https://aymen94.github.io/reactflix/
- 
+ ![Alt text](https://raw.githubusercontent.com/aymen94/reactflix/master/reactflix.jpg?raw=true "reactflix")
+
 ------------------------------------------------------------
  
 ## How to use
