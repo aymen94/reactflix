@@ -6,7 +6,7 @@ Reactflix is simple front-end Inspired by Netflix.
 
 Api by: themoviedb.org
 
-# Coming soon publish back-end
+# coming Soon will also release backend
 Follow me to stay up to date
 
 -----------------------------------------------------------
