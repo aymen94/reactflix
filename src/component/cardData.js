@@ -17,8 +17,8 @@ class CardData extends Component {
 
   async fetchData(){
   
-  const d= await axios.get(`${this.urlApi}${this.props.url}${this.apiKey}`);
-  this.setState({data:d.data});
+   await axios.get(`${this.urlApi}${this.props.url}${this.apiKey}`).then(d=>this.setState({data:d.data}))
+ 
   }
 
   componentDidMount() {
