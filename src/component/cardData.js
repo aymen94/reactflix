@@ -15,14 +15,14 @@ class CardData extends Component {
     }
   }
 
-  async fetchData(){
+   fetchData(){
   
-   await axios.get(`${this.urlApi}${this.props.url}${this.apiKey}`).then(d=>this.setState({data:d.data}))
+   return axios.get(`${this.urlApi}${this.props.url}${this.apiKey}`);
  
   }
 
   componentDidMount() {
-    this.fetchData();
+    this.fetchData().then(d=>this.setState({data:d.data}))
   }
  
 
