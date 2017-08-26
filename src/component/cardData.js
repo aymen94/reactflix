@@ -39,7 +39,7 @@ class CardData extends Component {
           </div>
         </div>
     );
-      return<div className="loader" />  
+      return null  
   }
 }
 
