@@ -1,10 +1,6 @@
-@font-face{
-  font-family: netfont;
-  src: url(forgotts.ttf);
-}
 body {
-  font-family: 'netfont';
   background-color: #141414;
+  margin: 1% 0 5% 0;
 }
 
 h1{
@@ -17,7 +13,6 @@ h1{
     position:relative;
     color: #E50914;
     font-size: 400%;
-    text-align: center;
     text-transform: uppercase;
     padding: 20px;
 }
@@ -31,7 +26,8 @@ h1{
   border-radius: 5px;  
   cursor:pointer;
   text-align: center;
-  margin:auto;
+  padding: 2%;
+  margin:1%;
 }
 /* loading */
 
@@ -105,11 +101,13 @@ h1{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 /* end img */
 
 /* modal */
 
 .modal {
+  display: block;
   position: absolute;
   text-align: center;
   top: 5%;
@@ -118,7 +116,6 @@ h1{
   bottom: 5%;
   background-color: #141414;
   border: 5px solid #E50813;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .modalOverlay {
@@ -132,16 +129,13 @@ h1{
 .modalTitle{
   position: relative;
   text-align: center;
-  font-size: 200%;
+  font-size: 120%;
   border:2px solid #E50813;
   color:#E50813;
-  padding:5px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin: 5px 10px 5px 10px;
 }
 .modalBody{
-  margin-top: 10%;
-  position: absolute;
+  margin-top: 2%;
   margin: auto;
   text-align: center;
   font-size: 100%;
@@ -152,11 +146,17 @@ h1{
   position: absolute;
   text-align: center;
   top: 20%;
-  left: 30%;
-  right: 30%;
-  bottom: 40%;
+  left: 20%;
+  right: 20%;
+  padding: 5%;
   background-color: #141414;
   border: 5px solid #E50813;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modalFooter{
+  font-size: 120%;
+  display: flex;
+  margin: 0 auto;
+
 }
 /* end  modal */
